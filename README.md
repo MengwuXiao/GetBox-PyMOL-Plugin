@@ -145,7 +145,7 @@ cmd.select("ChaHet","hetatm & chain A") # 选中A链中小分子
 cmd.show("sticks", "ChaHet") # 以stick模式显示小分子，以便于手动选定配体  
 getbox("ChaHet",extending) # 以配体几何中心为盒子中心，生成盒子，extending是指将配体盒子延长的大小  
 ```
-<div align=center><img src="https://github.com/MengwuXiao/GetBox-PyMOL-Plugin/blob/master/Screenshot/Fig1.jpg"/></div>
+<div align=center><img src="https://github.com/MengwuXiao/GetBox-PyMOL-Plugin/blob/master/Screenshot/Fig3.jpg"/></div>
 <div align=center>图 1. 根据配体确定盒子的示意图，以3CL0为例</div>  
 
 选定对象盒子空间位置和大小信息的获取代码（关键）：  
@@ -164,13 +164,13 @@ maxZ = maxZ + float(extending)
 cmd.select("sele", ResiduesStr + " & chain A") # 选定链A中ResiduesStr中出现的氨基酸
 getbox("sele", extending) # 以氨基酸们的几何中心为盒子中心，生成盒子，原理与图1类似，但这里要注意extending大小的设置，默认值为5埃
 ```
-<div align=center><img src="https://github.com/MengwuXiao/GetBox-PyMOL-Plugin/blob/master/Screenshot/Fig2.jpg"/></div>
+<div align=center><img src="https://github.com/MengwuXiao/GetBox-PyMOL-Plugin/blob/master/Screenshot/Fig4.jpg"/></div>
  <div align=center>图 2. 根据文献报道的空腔氨基酸确定盒子的示意图，以3CL0为例</div>
 
 ### 安装方法  
 **基于以上原理和方法，用PyMOL Script编了一个PyMOL的插件——GetBox Plugin，可以输出LeDock和Autodock Vina的盒子信息。**
 首先介绍安装方法（图 3）：打开PyMOL->Plugin->(Plugin Manager)->Install (New) Plugin->找到GetBox Plugin.py安装->重启PyMOL->安装成功，PyMOL的Plugin工具栏会多出一个菜单项GetBox Plugin，有三个子菜单，分别为：Advanced usage、Autodetect box、Get box from selection (sele)。
-<div align=center><img src="https://github.com/MengwuXiao/GetBox-PyMOL-Plugin/blob/master/Screenshot/Fig3.jpg"/></div>
+<div align=center><img src="https://github.com/MengwuXiao/GetBox-PyMOL-Plugin/blob/master/Screenshot/Fig2.jpg"/></div>
 <div align=center>图 3. GetBox Plugin 安装步骤</div>
 
 ### 用法简介
@@ -202,7 +202,7 @@ getbox("sele", extending) # 以氨基酸们的几何中心为盒子中心，生�
 另外，可以通过showbox函数绘制box或调整box位置和大小。从图2中，可以看出， 有一小部分空穴没有包在box里，需要增大MaxY，减小MinZ。下图中盒子代码为showbox -40.4 ,-23.2,-65.0 ,-47.5,0.8, 15.4，在PyMOL命令窗口输入showbox -40.4 ,-23.2,-65.0 ,-46.5,-0.5, 15.4可实现Y和Z方向的改变。  
 **ps.** 在PyMOL中配体的选择有很多种方法，例如：1. 打开蛋白序列窗口查看蛋白序列，一般配体在序列末端，点击即可选中；2. 打开蛋白质时会有配体信息，直接用select  (sele)，resn  "配体缩写（一般为三个字符）" ，即可选中；3. 在图形窗口，点击All->A->present->ligand sites->cartoon即可显示配体；4. 采用GetBox Plugin 的Autodetect box菜单或autobox命令，即可选中配体分子（ChaHet）为球状模型，若隐藏其他lines、cartoon就很清晰。  
 **如不懂参数设定，请看原理部分**
- <div align=center><img src="https://github.com/MengwuXiao/GetBox-PyMOL-Plugin/blob/master/Screenshot/Fig4.jpg"/></div>
+ <div align=center><img src="https://github.com/MengwuXiao/GetBox-PyMOL-Plugin/blob/master/Screenshot/Fig1.jpg"/></div>
  <div align=center>图 4. 3CL0盒子对活性位点氨基酸包合情况示意图</div>
 
 **在PyMOL的输出窗口中生成的盒子信息**：

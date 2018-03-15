@@ -34,6 +34,7 @@ def __init__(self):
 	self.menuBar.addmenuitem('GetBox Plugin', 'command','GetBoxHelp',label = 'Advanced usage',command = lambda s=self : GetBoxHelp())
 	self.menuBar.addmenuitem('GetBox Plugin', 'command','AutoBox',label = 'Autodetect box',command = lambda s=self : autobox())
 	self.menuBar.addmenuitem('GetBox Plugin', 'command','GetBox',label = 'Get box from selection (sele) ', command = lambda s=self : getbox())
+	self.menuBar.addmenuitem('GetBox Plugin', 'command','Remove HETATM',label = 'Remove HETATM ', command = lambda s=self : rmhet())
 
  # to deal with print 
 def printf(str):
@@ -65,7 +66,10 @@ this plugin is a simple tool to get box information for LeDock and Autodock Vina
 * showbox [minX, maxX, minY, maxY, minZ, maxZ]
     this function creates a box based on the input axis, used to visualize box or amend box coordinate
     e.g. showbox 2,3,4,5,6,7
-    
+ 
+ * rmhet
+ 	remove HETATM, remove all HETATM in the screen
+ 	   
 Notes:
 * If you have any questions or advice, please do not hesitate to contact me (mwxiao AT hnu DOT edu DOT cn), thank you!'''
 
