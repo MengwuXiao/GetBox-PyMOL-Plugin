@@ -44,7 +44,7 @@ def printf(str):
         exec ("print(str)")
     
 def GetBoxHelp():
-    Usages = '''get latest plugin and tutorials at http://bioms.org/forum.php?mod=viewthread&tid=1234
+    Usages = '''get latest plugin and tutorials at https://github.com/MengwuXiao/Getbox-PyMOL-Plugin
 
 Usages:
 this plugin is a simple tool to get box information for LeDock and Autodock Vina or other molecular docking soft. Using the following functions to get box is recommended.
