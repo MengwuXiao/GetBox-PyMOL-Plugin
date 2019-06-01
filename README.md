@@ -172,7 +172,7 @@ getbox("sele", extending) # 以氨基酸们的几何中心为盒子中心，生�
 首先介绍安装方法（图 3）：打开PyMOL->Plugin->(Plugin Manager)->Install (New) Plugin->找到GetBox Plugin.py安装->重启PyMOL->安装成功，PyMOL的Plugin工具栏会多出一个菜单项GetBox Plugin，有三个子菜单，分别为：Advanced usage、Autodetect box、Get box from selection (sele)。
 <div align=center><img src="https://github.com/MengwuXiao/GetBox-PyMOL-Plugin/blob/master/Screenshot/Fig2.jpg"/></div>
 <div align=center>图 3. GetBox Plugin 安装步骤</div>
-<div align=center><img src="https://github.com/MengwuXiao/GetBox-PyMOL-Plugin/blob/master/Screenshot/install.jpg"></div>  
+<div align=center><img src="https://github.com/MengwuXiao/GetBox-PyMOL-Plugin/blob/master/Screenshot/install.png"></div>  
 <div align=center>图 3.1 GetBox Plugin 安装步骤（PyMOL高版本）</div>
 
 ### 用法简介
