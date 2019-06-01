@@ -51,7 +51,9 @@ gridcenter CenterX, CenterY, CenterZ # xyz-coordinates or auto
 Please follow the guiding steps shown in Fig 2. Open PyMOL->Plugin->(Plugin Manager)->Install (New) Plugin->Find GetBox Plugin.py->Restart PyMOL->Finished, Then you will see an additional menu *GetBox Plugin*. It has three submenus: Advanced usage, Autodetect box and Get box from selection (sele).  
 <div align=center><img src="https://github.com/MengwuXiao/GetBox-PyMOL-Plugin/blob/master/Screenshot/Fig2.jpg"></div>
 <div align=center>Fig. 2 Installation Procedures of GetBox Plugin</div>  
-  
+<div align=center><img src="https://github.com/MengwuXiao/GetBox-PyMOL-Plugin/blob/master/Screenshot/install.png"></div>  
+<div align=center>Fig. 2.1 Installation Procedures of GetBox Plugin（PyMOL version > 1.0）</div>
+
 ### Method
 **1. Prepare proteins**  
 Remove solvents and ions  
