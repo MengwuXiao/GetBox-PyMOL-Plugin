@@ -105,11 +105,11 @@ getbox("sele", extending) # Box calculated based on the geometric center of the 
 
 ## 中文版说明书 (Tutorial, in Chinese )
 
-### 背景简介
-本PyMOL插件是我2014年发表于BioMS论坛的 (<http://bioms.org/thread-1234-1-1.html>)。以下是转过来的原文。目前支持AutoDock、AutoDock Vina和LeDock和对接盒子的获取。  
-
 ### 下载地址   
 <a href="https://github.com/MengwuXiao/GetBox-PyMOL-Plugin/releases/download/v1.1/GetBox-PyMOL-Plugin.v20180204.zip">GetBox-PyMOL-Plugin.v20180204.zip</a>
+
+### 背景简介
+本PyMOL插件是我2014年发表于BioMS论坛的 (<http://bioms.org/thread-1234-1-1.html>)。以下是转过来的原文。目前支持AutoDock、AutoDock Vina和LeDock和对接盒子的获取。  
 
 **LeDock**是苏黎世大学ZHAO Hongtao博士开发的一款跨平台(Win,Linux, Mac OS)分子对接软件，在速度和准确度上均呈现出强劲的优势，其对接准确性高于Gold (<http://bioms.org/thread-1222-1-1.html>)。  
 LeDock对接盒子（Box）是由LePro获得的，盒子的格式如下：  
