@@ -108,6 +108,10 @@ getbox("sele", extending) # Box calculated based on the geometric center of the 
 ### 下载地址   
 <a href="https://github.com/MengwuXiao/GetBox-PyMOL-Plugin/releases/download/v1.1/GetBox-PyMOL-Plugin.v20180204.zip">GetBox-PyMOL-Plugin.v20180204.zip</a>
 
+### 视频教程  
+<a href="https://github.com/MengwuXiao/GetBox-PyMOL-Plugin/blob/master/usage_basic.mp4?raw=true">教程1</a><br>
+<a href="https://v.youku.com/v_show/id_XMzU2MTk5MDg0OA==.html">教程2 (从5:08开始)</a>
+
 ### 背景简介
 本PyMOL插件是我2014年发表于BioMS论坛的 (<http://bioms.org/thread-1234-1-1.html>)。以下是转过来的原文。目前支持AutoDock、AutoDock Vina和LeDock和对接盒子的获取。  
 
