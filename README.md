@@ -104,8 +104,8 @@ getbox("sele", extending) # Box calculated based on the geometric center of the 
 2014-07-30  uploaded to http://bioms.org/forum.php?mod=viewthread&tid=1234   
 2018-02-04  uploaded to Github https://github.com/MengwuXiao/GetBox-PyMOL-Plugin, added tutorials in English; fixed some bugs (python 2.x/3.x and PyMOL 1.x are supported;)  
 
-## 中文版说明书 (Tutorial, in Chinese )
 <a id="tutorial_cn"></a>
+## 中文版说明书 (Tutorial, in Chinese)
 
 ### 下载地址   
 <a href="https://github.com/MengwuXiao/GetBox-PyMOL-Plugin/releases/download/v1.1/GetBox-PyMOL-Plugin.v20180204.zip">GetBox-PyMOL-Plugin.v20180204.zip</a>
