@@ -8,6 +8,7 @@
 <a href="https://github.com/MengwuXiao/GetBox-PyMOL-Plugin/releases/download/v1.1/GetBox-PyMOL-Plugin.v20180204.zip">GetBox-PyMOL-Plugin.v20180204.zip</a>
 
 ## Tutorials
+<b><a href="#tutorial_cn">中文版教程请点击这里</a></b>
 
 ### Backgrouds
 <a href="http://autodock.scripps.edu/">**AutoDock**</a>, <a href="http://vina.scripps.edu/">**Autodock Vina**</a> and <a href="http://www.lephar.com/download.htm">**LeDock**</a> are widely used in the simulation the interactions between protein and small molecules. **Docking Box** is a key parameter for the docking. For the convienece and accuracy of the docking, this tool, **Getbox-PyMOL-Plugin**, is designed and created by **Mengwu Xiao** (Hunan University), which is firstly uploaded to <a href="http://bioms.org/thread-1234-1-1.html">**BioMS forum**</a> in 2014-7-30.
@@ -104,6 +105,7 @@ getbox("sele", extending) # Box calculated based on the geometric center of the 
 2018-02-04  uploaded to Github https://github.com/MengwuXiao/GetBox-PyMOL-Plugin, added tutorials in English; fixed some bugs (python 2.x/3.x and PyMOL 1.x are supported;)  
 
 ## 中文版说明书 (Tutorial, in Chinese )
+<a id="tutorial_cn"></a>
 
 ### 下载地址   
 <a href="https://github.com/MengwuXiao/GetBox-PyMOL-Plugin/releases/download/v1.1/GetBox-PyMOL-Plugin.v20180204.zip">GetBox-PyMOL-Plugin.v20180204.zip</a>
