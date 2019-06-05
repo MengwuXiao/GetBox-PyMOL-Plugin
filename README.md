@@ -105,14 +105,16 @@ getbox("sele", extending) # Box calculated based on the geometric center of the 
 2018-02-04  uploaded to Github https://github.com/MengwuXiao/GetBox-PyMOL-Plugin, added tutorials in English; fixed some bugs (python 2.x/3.x and PyMOL 1.x are supported;)  
 
 <a id="tutorial_cn"></a>
+
+
 ## 中文版说明书 (Tutorial, in Chinese)
 
 ### 下载地址   
 <a href="https://github.com/MengwuXiao/GetBox-PyMOL-Plugin/releases/download/v1.1/GetBox-PyMOL-Plugin.v20180204.zip">GetBox-PyMOL-Plugin.v20180204.zip</a>
 
 ### 视频教程  
-<a href="https://github.com/MengwuXiao/GetBox-PyMOL-Plugin/blob/master/usage_basic.mp4?raw=true">教程1</a><br>
-<a href="https://v.youku.com/v_show/id_XMzU2MTk5MDg0OA==.html">教程2 (从5:08开始)</a>
+<a href="https://github.com/MengwuXiao/GetBox-PyMOL-Plugin/blob/master/usage_basic.mp4?raw=true">教程1 (19秒)</a><br>
+<a href="https://v.youku.com/v_show/id_XMzU2MTk5MDg0OA==.html">教程2 (从5:08开始)</a> [内容为“LeDock，AutoDock Vina分子对接与结果分析显示（PyMOL）教程”，清晰版百度盘下载地址：https://pan.baidu.com/s/1gGVlo0tkYShVXgJoe8FC6A， 密码：ghc6].
 
 ### 背景简介
 本PyMOL插件是我2014年发表于BioMS论坛的 (<http://bioms.org/thread-1234-1-1.html>)。以下是转过来的原文。目前支持AutoDock、AutoDock Vina和LeDock和对接盒子的获取。  
