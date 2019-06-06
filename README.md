@@ -141,7 +141,7 @@ gridcenter CenterX, CenterY, CenterZ # xyz-coordinates or auto # 盒子中心坐
 LePro可以识别含有一个配体的蛋白活性空腔，但无法识别含多个小分子或离子或无配体蛋白活性空腔，如1MQ4。另外，由于没有图形界面，无法显示和调节盒子的位置。因此有必要用其他方法来获得盒子信息。BioMS论坛里eming用VMD和PyMOL AutoDock Plugin分别实现了LeDock盒子信息的获取与显示(<http://bioms.org/thread-1226-1-1.html>)。
 
 ### 原理简介
-首先介绍在PyMOL下获取盒子的原理和相应PyMOL Script代码的实现。**对于不想看原理的伙伴们可以直接跳到下面看安装和具体用法**，基于这个插件可以在PyMOL中获取LeDock和Autodock Vina的盒子信息。  
+首先介绍在PyMOL下获取盒子的原理和相应PyMOL Script代码的实现。<b>对于不想看原理的伙伴们可以直接跳到下面看<a href="#install_cn">安装和具体用法</a></b>，基于这个插件可以在PyMOL中获取LeDock和Autodock Vina的盒子信息。  
 
 **1. 预处理蛋白**  
 首先是去除溶剂分子和离子。防止干扰后面的操作。
@@ -183,6 +183,7 @@ getbox("sele", extending) # 以氨基酸们的几何中心为盒子中心，生�
 <div align=center><img src="https://github.com/MengwuXiao/GetBox-PyMOL-Plugin/blob/master/Screenshot/Fig4.jpg"/></div>
  <div align=center>图 2. 根据文献报道的空腔氨基酸确定盒子的示意图，以3CL0为例</div>
 
+<a id="install_cn"></a>
 ### 安装方法  
 **基于以上原理和方法，用PyMOL Script编了一个PyMOL的插件——GetBox Plugin，可以输出LeDock和Autodock Vina的盒子信息。**
 首先介绍安装方法（图 3）：打开PyMOL->Plugin->(Plugin Manager)->Install (New) Plugin->找到GetBox Plugin.py安装->重启PyMOL->安装成功，PyMOL的Plugin工具栏会多出一个菜单项GetBox Plugin，有三个子菜单，分别为：Advanced usage、Autodetect box、Get box from selection (sele)。
